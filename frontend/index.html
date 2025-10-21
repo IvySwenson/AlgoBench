@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AlgoBench Runtime Comparison</title>
+  <link rel="stylesheet" href="./style.css" />
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>AlgoBench</h1>
+    <p>Algorithm runtime comparison (ms) — data from <code>data/results.json</code></p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Runtime Chart</h2>
+      <canvas id="runtimeChart"></canvas>
+    </section>
+
+    <section class="card">
+      <h2>Benchmark Table</h2>
+      <table id="resultTable">
+        <thead>
+          <tr id="thead-row"></tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <small>© Ivy Swenson — AlgoBench MVP</small>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>

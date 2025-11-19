@@ -87,4 +87,20 @@ Interested in algorithms, system design, and AI-driven data visualization.
 
 ---
 
+# Project Overview
+
+This repository is a full-stack web application with approximately 346 lines of code across 7 tracked file(s). The main technologies used are Python, Markdown, JavaScript.
+
+## Tech Stack
+- Python (~32% of the code, 109 lines)
+- Markdown (~26% of the code, 91 lines)
+- JavaScript (~18% of the code, 62 lines)
+- HTML (~12% of the code, 41 lines)
+- JSON (~8% of the code, 26 lines)
+- CSS (~5% of the code, 17 lines)
+
+## Highlights
+- Approx. 346 lines of code across 7 file(s).
+- Primary language: Python (~32% of the code, 109 lines).
+- Includes a web front-end (HTML/CSS/JavaScript).
 
